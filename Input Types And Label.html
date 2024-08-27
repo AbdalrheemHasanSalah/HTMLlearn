@@ -1,0 +1,38 @@
+
+<!-- Input Types And Label -->
+  <!--Required, Placeholder, Value-->
+   <!-- Action, Name, Method-->
+    <!--ReadOnly, Disabled, Autofocus-->
+    <form action="" method="post"> <!--method get show data in url 
+      method post not disaple in url-->
+<div>
+<label>Username</label>
+<input type="texy" required placeholder="username" name="user" readonly><!--required that should input it before submit
+                           placeholder to show text in field before write any thing
+                           name to get backend of data in-
+                           readonly can send data to backend-->
+</div>
+
+<br>
+<div>
+<label>supject</label>
+<input type="text" name="supject" autofocus><!--when start the page get curser to input that hava autofocus-->
+</div>
+
+<br>
+
+<div>
+<label>password</label>
+<input type="password" required placeholder="password" name="password" minlength="8" maxlength="20"><!--minlength range to start char and end char maxlength -->
+</div> 
+<br>
+<div>
+<label>Email</label>
+<input type="email" required placeholder="email" value="email@domin.com" name="email" disabled><!--value to give value at field
+                                                                      disabled cannot send data to backend-->
+
+</div>
+<input type="reset" value="Reset">
+<input type="submit" value="save">
+<input type="hidden" value="abd"> 
+</form>
